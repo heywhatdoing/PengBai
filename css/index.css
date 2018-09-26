@@ -1,0 +1,42 @@
+body {
+  text-align:center;
+}
+div{
+  background-color: white;
+  border: 5px solid black;
+}
+.wrapper{
+  max-width: 80%;
+  margin: auto;
+}
+h1 {
+  font-size:100px;
+  color:red;
+  background-color: lightblue;
+  border-left: 20px solid blue;
+  border-right: 20px ridge coral;
+  border-top: 20px inset lightgreen;
+  border-bottom: 20px outset cyan;
+  box-shadow: 4px 4px 10px;
+  text-shadow: 3px 3px 6px;
+}
+h1:hover{
+  font-size:125px;
+  color:cyan;
+  background-color: lightblue;
+  border-left: 25px solid blue;
+  border-right: 25px ridge coral;
+  border-top: 25px inset lightgreen;
+  border-bottom: 25px outset cyan;
+  box-shadow: 5px 5px 12px;
+  text-shadow: 4px 4px 8px;
+}
+h2{
+    font-size: 50px;
+    color: green;
+    border: 12px outset red;
+    box-shadow: 4px 4px 8px;
+    text-shadow: 3px 3px 6px;
+}
+ul, ol{
+  list-style-position: inside;
