@@ -30,17 +30,15 @@ h1 {
   border-right: 20px ridge coral;
   border-top: 20px inset lightgreen;
   border-bottom: 20px outset cyan;
-  box-shadow: 4px 4px 10px;
-  text-shadow: 3px 3px 6px;
-  text-align:center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h2{
     font-size: 50px;
     color: green;
     border: 12px outset red;
-    box-shadow: 4px 4px 8px;
-    text-shadow: 3px 3px 6px;
-    text-align:center;
+    text-align: center;
+   font-family: 'Franklin Gothic Medium','Arial Narrow', Arial, sans-serif;
 }
 ul, ol{
   list-style-position: inside;
