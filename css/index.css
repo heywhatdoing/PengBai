@@ -1,16 +1,13 @@
-body {}
-
-article {
-  flex: 5;
-  /*background-color: #f1f1f1;*/
-  padding: 10px;
-}
-
 section {
   display: flex;
 }
 
-.tableItem {
+nav {
+  flex: 1;
+  padding: 20px;
+}
+
+article {
   flex: 5;
   padding: 10px;
 }
@@ -19,12 +16,9 @@ section {
   display: flex;
 }
 
-nav {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  /*background: #ccc ;*/
-  padding: 20px;
+.tableItem {
+  flex: 5;
+  padding: 10px;
 }
 
 h1 {
@@ -54,7 +48,6 @@ ol {
 
 @media (max-width: 600px) {
   section {
-    -webkit-flex-direction: column;
     flex-direction: column;
   }
 }
