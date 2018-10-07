@@ -1,15 +1,21 @@
-body { 
-}
- 
+body {}
+
 article {
-  -webkit-flex: 5;
-  -ms-flex: 5;
   flex: 5;
   /*background-color: #f1f1f1;*/
   padding: 10px;
 }
+
 section {
-  display: -webkit-flex;
+  display: flex;
+}
+
+.tableItem {
+  flex: 5;
+  padding: 10px;
+}
+
+.table {
   display: flex;
 }
 
@@ -20,9 +26,10 @@ nav {
   /*background: #ccc ;*/
   padding: 20px;
 }
+
 h1 {
-  font-size:70px;
-  color:red;
+  font-size: 70px;
+  color: red;
   background-color: lightblue;
   border-left: 20px solid blue;
   border-right: 20px ridge coral;
@@ -31,22 +38,27 @@ h1 {
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-h2{
-    font-size: 50px;
-    color: green;
-    border: 12px outset red;
-    text-align: center;
-   font-family: 'Franklin Gothic Medium','Arial Narrow', Arial, sans-serif;
+
+h2 {
+  font-size: 50px;
+  color: green;
+  border: 12px outset red;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-ul, ol{
+
+ul,
+ol {
   list-style-position: inside;
 }
-  @media (max-width: 600px) {
-    section {
-      -webkit-flex-direction: column;
-      flex-direction: column;
-    }
-  } 
-  strong {
-    font-size: 25px;
+
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
   }
+}
+
+strong {
+  font-size: 25px;
+}

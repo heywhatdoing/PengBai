@@ -14,13 +14,8 @@
     <h1>Peng's Website</h1>
   </header>
 
-  <div>
-    <h2>Welcome to my website</h2>
-    <p><strong>In this website you will be learning about the History of Steam, the Steam community, how to use Steam,
-        and Steam's Xtra Features.</strong></p>
-  </div>
-
   <section>
+
     <nav>
       <ul style="list-style-type:none;">
         <li>Home</li>
@@ -30,14 +25,24 @@
       </ul>
     </nav>
     <article>
-      <p>This is a picture of the Valve logo.</p>
-      <img id="imageValve" src="images\valvelogo.jpg" alt="Valve Logo" style="display: none; width:700px">
-      <button id="VButton" onclick="VSwitch()">Open Valve logo</button>
-    </article>
-    <article>
-      <p>This is a picture of the Steam logo.</p>
-      <img id="imageSteam" src="images\steamlogo.png" alt="Steam Logo" style="display: none; width:450px">
-      <button id="SButton" onclick="SSwitch()">Open Steam logo</button>
+      <div>
+        <h2>Welcome to my website</h2>
+        <p><strong>In this website you will be learning about the History of Steam, the Steam community, how to use
+            Steam,
+            and Steam's Xtra Features.</strong></p>
+      </div>
+      <div class="table">
+        <div class="tableItem">
+          <p>This is a picture of the Valve logo.</p>
+          <img id="imageValve" src="images\valvelogo.jpg" alt="Valve Logo" style="display: none; width:700px">
+          <button id="VButton" onclick="VSwitch()">Open Valve logo</button>
+        </div>
+        <div class="tableItem">
+          <p>This is a picture of the Steam logo.</p>
+          <img id="imageSteam" src="images\steamlogo.png" alt="Steam Logo" style="display: none; width:450px">
+          <button id="SButton" onclick="SSwitch()">Open Steam logo</button>
+        </div>
+      </div>
       <p>Steam is available on Windows, macOS, Linux, PlayStation 3, iOS, Android, and Windows Phone.</p>
     </article>
   </section>
