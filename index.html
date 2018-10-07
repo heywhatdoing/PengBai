@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>Peng's website</title>
   <link rel="stylesheet" href="css\index.css">
+  <script src="js\index.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -29,8 +30,10 @@
       <p>In this website you will be learning about the History of Steam, the Steam community, how to use Steam, and
         Steam's Xtra Features.</p>
       <p>This is a picture of the Valve and Steam logo.</p>
-      <img src="images\valvelogo.jpg" alt="Valve Logo" width="500">
-      <img src="images\steamlogo.png" alt="Steam Logo" width="250">
+      <img id="imageValve" src="images\valvelogo.jpg" alt="Valve Logo" style="display: none; width:700px">
+      <button id="VButton" onclick="VSwitch()">Open Valve logo</button>
+      <img id="imageSteam" src="images\steamlogo.png" alt="Steam Logo" style="display: none; width:450px">
+      <button id="SButton" onclick="SSwitch()">Open Steam logo</button>
       <p>Steam is available on Windows, macOS, Linux, PlayStation 3, iOS, Android, and Windows Phone.</p>
 
     </article>
