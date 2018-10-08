@@ -1,3 +1,7 @@
+body{
+background-image: url(..\\images\\Background.jpg)
+}
+
 section {
   display: flex;
 }
@@ -36,7 +40,7 @@ h1 {
 h2 {
   font-size: 50px;
   color: green;
-  border: 12px outset red;
+  border: 12px outset rgba(0, 140, 255, 0.849);
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
